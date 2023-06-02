@@ -23,13 +23,13 @@ function buscarMatch() {
         let element = document.getElementById("personaje") 
 
         element.innerHTML = `
-        
+            <img src =${data.image}>
             <li><label>Nombre: ${data.name}</label></li>
             <li><label>Estado: ${data.status}</label></li>
             <li><label>Especie: ${data.species}</label></li>
             <li><label>Localidad: ${data.location.name}</label></li>
             <li><label>Genero: ${data.gender}</label></li>
-            <img src =${data.image}>
+            
             
             `
         
